@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 import numpy as np
 import requests
 from mmdet.apis import init_detector, inference_detector
