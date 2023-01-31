@@ -1,13 +1,7 @@
 import streamlit as st
 import numpy as np
 import requests
-from mmdet.apis import init_detector, inference_detector
-import mmcv
-import torch
-from mmdet.utils.contextmanagers import concurrent
-from pprint import pprint
-from PIL import Image
-import datetime
+
 
 def IoU(bbox1, bbox2):
 
