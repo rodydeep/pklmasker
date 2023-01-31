@@ -31,7 +31,7 @@ def IoU(bbox1, bbox2):
     return IoU
 
 def file():
-    inputimg = st.file_uploader("Upload your image")
+    inputimg = st.file_uploader("Upload foto")
     if inputimg is not None:
         inputimg = Image.open(inputimg)
         inputimg = np.array(inputimg)
